@@ -1,0 +1,24 @@
+project:
+  random_seed: 42
+
+simulation:
+  start_date: "2025-01-01"
+  end_date: "2025-03-31"
+  n_customers: 25000
+  n_campaigns: 6
+
+campaign_design:
+  default_attribution_window_days: 14
+  holdout_pct: 0.08
+  bounce_rate: 0.06
+  overlap_rate: 0.18  # chance an eligible customer is eligible for multiple campaigns
+
+governance:
+  min_group_size: 800
+  max_leakage_rate: 0.01  # for synthetic data we expect ~0 leakage unless injected
+  overlap_flag_threshold: 0.20
+
+output:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  marts_dir: "data/marts"
