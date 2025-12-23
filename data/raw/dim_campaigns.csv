@@ -1,0 +1,7 @@
+campaign_id,campaign_name,start_date,end_date,channel,target_segment,attribution_window_days,holdout_pct,true_rpc_uplift
+C001,Campaign 1,2025-01-09,2025-01-11,Push,New,14,0.08,0.45
+C002,Campaign 2,2025-01-20,2025-01-22,Push,Lapsed,14,0.08,0.25
+C003,Campaign 3,2025-01-22,2025-01-24,Push,Active,14,0.08,0.05
+C004,Campaign 4,2025-02-05,2025-02-07,Email,Active,14,0.08,0.0
+C005,Campaign 5,2025-02-26,2025-02-28,SMS,Warm,14,0.08,-0.12
+C006,Campaign 6,2025-03-06,2025-03-08,Email,New,14,0.08,0.15
